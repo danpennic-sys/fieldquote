@@ -1,0 +1,11 @@
+{
+  "name": "Standard residential fixture install",
+  "trade": "Plumbing",
+  "default_tax_pct": 8.5,
+  "default_deposit_pct": 30,
+  "items": [
+    {"description": "Labor – fixture install", "qty": 3, "unit_price": 95},
+    {"description": "Materials – fixture + fittings", "qty": 1, "unit_price": 225},
+    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+  ]
+}

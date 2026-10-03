@@ -1,0 +1,11 @@
+{
+  "name": "Seasonal tune-up + filter change",
+  "trade": "HVAC",
+  "default_tax_pct": 8.5,
+  "default_deposit_pct": 0,
+  "items": [
+    {"description": "Labor – seasonal tune-up", "qty": 1.5, "unit_price": 110},
+    {"description": "Filter – standard 16x25x1", "qty": 1, "unit_price": 28},
+    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+  ]
+}

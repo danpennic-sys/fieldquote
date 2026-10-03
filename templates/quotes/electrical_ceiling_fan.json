@@ -1,0 +1,11 @@
+{
+  "name": "Ceiling fan install (existing box)",
+  "trade": "Electrical",
+  "default_tax_pct": 8.5,
+  "default_deposit_pct": 30,
+  "items": [
+    {"description": "Labor – fan install + balancing", "qty": 2.5, "unit_price": 105},
+    {"description": "Materials – wire nuts, brackets, switches", "qty": 1, "unit_price": 45},
+    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+  ]
+}

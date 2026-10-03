@@ -1,0 +1,14 @@
+{
+  "name": "Standard water heater replacement",
+  "trade": "Plumbing",
+  "default_tax_pct": 8.5,
+  "default_deposit_pct": 40,
+  "items": [
+    {"description": "Labor – remove old + install new", "qty": 5, "unit_price": 95},
+    {"description": "Water heater – 50 gal standard", "qty": 1, "unit_price": 875},
+    {"description": "Expansion tank + fittings", "qty": 1, "unit_price": 165},
+    {"description": "Haul-away old unit", "qty": 1, "unit_price": 75},
+    {"description": "Permit fee (pass-through)", "qty": 1, "unit_price": 95},
+    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+  ]
+}
