@@ -4,7 +4,15 @@
   "default_tax_pct": 0,
   "default_deposit_pct": 0,
   "items": [
-    {"description": "Labor – mow, edge, trim, blow", "qty": 1, "unit_price": 65},
-    {"description": "Fuel / equipment surcharge", "qty": 1, "unit_price": 8}
+    {
+      "description": "Labor – mow, edge, trim, blow",
+      "qty": 1,
+      "unit_price": 65
+    },
+    {
+      "description": "Fuel / equipment surcharge",
+      "qty": 1,
+      "unit_price": 8
+    }
   ]
 }

@@ -4,9 +4,25 @@
   "default_tax_pct": 8.5,
   "default_deposit_pct": 40,
   "items": [
-    {"description": "Labor – circuit + outlet", "qty": 4, "unit_price": 105},
-    {"description": "Materials – breaker, wire, outlet, box", "qty": 1, "unit_price": 145},
-    {"description": "Permit fee (pass-through)", "qty": 1, "unit_price": 85},
-    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+    {
+      "description": "Labor – circuit + outlet",
+      "qty": 4,
+      "unit_price": 105
+    },
+    {
+      "description": "Materials – breaker, wire, outlet, box",
+      "qty": 1,
+      "unit_price": 145
+    },
+    {
+      "description": "Permit fee (pass-through)",
+      "qty": 1,
+      "unit_price": 85
+    },
+    {
+      "description": "Trip fee",
+      "qty": 1,
+      "unit_price": 49
+    }
   ]
 }

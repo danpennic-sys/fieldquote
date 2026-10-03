@@ -4,8 +4,20 @@
   "default_tax_pct": 8.5,
   "default_deposit_pct": 0,
   "items": [
-    {"description": "Labor – snake / hydro-jet main line", "qty": 2, "unit_price": 95},
-    {"description": "Camera inspection (optional add-on)", "qty": 1, "unit_price": 175},
-    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+    {
+      "description": "Labor – snake / hydro-jet main line",
+      "qty": 2,
+      "unit_price": 95
+    },
+    {
+      "description": "Camera inspection (optional add-on)",
+      "qty": 1,
+      "unit_price": 175
+    },
+    {
+      "description": "Trip fee",
+      "qty": 1,
+      "unit_price": 49
+    }
   ]
 }

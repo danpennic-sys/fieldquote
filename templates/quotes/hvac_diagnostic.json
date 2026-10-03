@@ -4,9 +4,25 @@
   "default_tax_pct": 8.5,
   "default_deposit_pct": 0,
   "items": [
-    {"description": "Diagnostic fee (credited if repair accepted)", "qty": 1, "unit_price": 129},
-    {"description": "Labor – repair (est. 1.5 hrs)", "qty": 1.5, "unit_price": 110},
-    {"description": "Parts – refrigerant / capacitor / contactor allowance", "qty": 1, "unit_price": 185},
-    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+    {
+      "description": "Diagnostic fee (credited if repair accepted)",
+      "qty": 1,
+      "unit_price": 129
+    },
+    {
+      "description": "Labor – repair (est. 1.5 hrs)",
+      "qty": 1.5,
+      "unit_price": 110
+    },
+    {
+      "description": "Parts – refrigerant / capacitor / contactor allowance",
+      "qty": 1,
+      "unit_price": 185
+    },
+    {
+      "description": "Trip fee",
+      "qty": 1,
+      "unit_price": 49
+    }
   ]
 }

@@ -4,8 +4,20 @@
   "default_tax_pct": 8.5,
   "default_deposit_pct": 25,
   "items": [
-    {"description": "Labor – half-day (4 hrs)", "qty": 4, "unit_price": 85},
-    {"description": "Materials allowance", "qty": 1, "unit_price": 75},
-    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+    {
+      "description": "Labor – half-day (4 hrs)",
+      "qty": 4,
+      "unit_price": 85
+    },
+    {
+      "description": "Materials allowance",
+      "qty": 1,
+      "unit_price": 75
+    },
+    {
+      "description": "Trip fee",
+      "qty": 1,
+      "unit_price": 49
+    }
   ]
 }

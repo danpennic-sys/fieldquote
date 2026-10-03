@@ -4,8 +4,20 @@
   "default_tax_pct": 8.5,
   "default_deposit_pct": 0,
   "items": [
-    {"description": "Service call / diagnostic", "qty": 1, "unit_price": 99},
-    {"description": "First hour labor (if repair proceeds)", "qty": 1, "unit_price": 95},
-    {"description": "Trip fee", "qty": 1, "unit_price": 49}
+    {
+      "description": "Service call / diagnostic",
+      "qty": 1,
+      "unit_price": 99
+    },
+    {
+      "description": "First hour labor (if repair proceeds)",
+      "qty": 1,
+      "unit_price": 95
+    },
+    {
+      "description": "Trip fee",
+      "qty": 1,
+      "unit_price": 49
+    }
   ]
 }
