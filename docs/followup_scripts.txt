@@ -1,0 +1,33 @@
+FIELDQUOTE — CUSTOMER FOLLOW-UP SCRIPTS
+=======================================
+
+1. AFTER SENDING QUOTE (SMS / email)
+-----------------------------------
+Hey [Name], this is [You] about the [Job] quote I sent.
+If you’re ready, I can lock in the price and get you on the schedule.
+Reply YES and I’ll send the date options.
+
+
+2. 24-HOUR FOLLOW-UP
+--------------------
+Quick check-in on the [Job] quote.
+Still interested? I have openings this week — happy to hold a slot for you.
+
+
+3. 3-DAY FINAL REMINDER
+-----------------------
+Last note on the [Job] quote — after this I’ll mark it closed so I can free the calendar.
+If you still want it done, just reply and we’ll lock it in.
+
+
+4. AFTER JOB COMPLETION (REVIEW REQUEST)
+----------------------------------------
+Thanks again for having me out for [Job].
+If everything looks good, a quick review helps a ton.
+I’ll send you a link—takes under a minute.
+
+
+5. REVIEW LINK (follow-up text)
+-------------------------------
+Here’s the review link: [URL]
+Appreciate you!
