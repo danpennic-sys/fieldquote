@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Local secrets / customer data
+.env
+.env.*
+*.local
+config.local.json
+branding/config.local.json
+
+# Binaries (ship as release assets, not tracked)
+*.xlsx
+*.pdf
+*.zip
+!docs/*.md
+
+# Python / node noise if tools are added later
+__pycache__/
+*.pyc
+node_modules/
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
