@@ -1,0 +1,12 @@
+{
+  "business_name": "Pennick Plumbing & Mechanical",
+  "tagline": "Straight quotes. No surprises.",
+  "primary_color": "#0b5fff",
+  "accent_color": "#ffb300",
+  "logo_path": "static/logo.png",
+  "business_phone": "(555) 555-0199",
+  "business_email": "quotes@pennickplumbing.example",
+  "business_website": "www.pennickplumbing.example",
+  "license_number": "MO-PL-12345",
+  "footer_text": "FieldQuote • Local-first quoting • All data stored on your device."
+}
