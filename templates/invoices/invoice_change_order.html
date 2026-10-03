@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Change Order – {{invoice_number}}</title>
+  <style>
+    :root {
+      --primary: {{primary_color|default("#0b5fff")}};
+      --accent: {{accent_color|default("#ffb300")}};
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; color: var(--text); font-size: 14px; line-height: 1.45; padding: 32px; max-width: 800px; margin: 0 auto; }
+    .header { display: flex; justify-content: space-between; border-bottom: 3px solid var(--accent); padding-bottom: 16px; margin-bottom: 24px; }
+    .business h1 { font-size: 20px; color: var(--primary); }
+    .invoice-meta { text-align: right; }
+    .invoice-meta .number { font-size: 18px; font-weight: 700; color: var(--accent); }
+    .ref-box { background: #fffbeb; border: 1px solid var(--accent); border-radius: 6px; padding: 12px 16px; margin-bottom: 20px; font-size: 13px; }
+    .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 20px; }
+    .parties h3 { font-size: 11px; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+    th { text-align: left; font-size: 11px; text-transform: uppercase; color: var(--muted); border-bottom: 2px solid var(--border); padding: 8px 6px; }
+    td { padding: 10px 6px; border-bottom: 1px solid var(--border); }
+    .right { text-align: right; }
+    .delta { color: #b45309; font-weight: 600; }
+    .totals { margin-left: auto; width: 280px; }
+    .totals .row { display: flex; justify-content: space-between; padding: 4px 0; }
+    .totals .grand { font-size: 18px; font-weight: 700; border-top: 2px solid var(--accent); margin-top: 8px; padding-top: 8px; color: var(--accent); }
+    .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 11px; color: var(--muted); text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="business">
+      <h1>{{business_name}}</h1>
+    </div>
+    <div class="invoice-meta">
+      <div class="number">CHANGE ORDER {{invoice_number}}</div>
+      <div>Date: {{invoice_date}}</div>
+    </div>
+  </div>
+
+  <div class="ref-box">
+    <strong>Original Quote:</strong> {{original_quote_number}} · Original amount: ${{original_amount}}<br>
+    <strong>Reason:</strong> {{change_reason}}
+  </div>
+
+  <div class="parties">
+    <div>
+      <h3>Customer</h3>
+      <strong>{{customer_name}}</strong><br>{{customer_address}}
+    </div>
+    <div>
+      <h3>Job</h3>
+      {{job_address}}
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Description (delta)</th><th class="right">Qty</th><th class="right">Unit</th><th class="right">Amount</th></tr>
+    </thead>
+    <tbody>
+      {{#each items}}
+      <tr>
+        <td>{{description}}</td>
+        <td class="right">{{qty}}</td>
+        <td class="right">${{unit_price}}</td>
+        <td class="right delta">${{amount}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+  <div class="totals">
+    <div class="row"><span>Original quote</span><span>${{original_amount}}</span></div>
+    <div class="row"><span>Change order delta</span><span class="delta">${{delta_amount}}</span></div>
+    <div class="row"><span>Tax on delta</span><span>${{tax_amount}}</span></div>
+    <div class="row grand"><span>New Contract Total</span><span>${{new_total}}</span></div>
+  </div>
+
+  <div class="footer">{{footer_text}} · Customer approval required before work proceeds.</div>
+</body>
+</html>
